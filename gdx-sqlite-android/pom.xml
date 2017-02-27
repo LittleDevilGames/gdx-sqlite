@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<name>gdx-sqlite-android</name>
+	<description>libgdx-sqlite</description>
+
+	<parent>
+		<groupId>com.pigdroid</groupId>
+		<artifactId>libgdx-sqlite</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../</relativePath>
+	</parent>
+	<artifactId>gdx-sqlite-android</artifactId>
+
+	<repositories>
+		<repository>
+			<id>boundlessgeo</id>
+			<url>http://repo.boundlessgeo.com/main/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>android</groupId>
+			<artifactId>android</artifactId>
+			<version>4.2.2_r3</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.pigdroid</groupId>
+			<artifactId>gdx-sqlite</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.badlogicgames.gdx</groupId>
+			<artifactId>gdx-backend-android</artifactId>
+		</dependency>
+
+	</dependencies>
+
+</project>
